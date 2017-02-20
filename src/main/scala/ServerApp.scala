@@ -6,7 +6,7 @@ import io.prediction.workflow.{CreateServer, ServerConfig, WorkflowUtils}
 import spray.can.Http
 import spray.can.server.ServerSettings
 
-object ServerApp extends App {
+object ServerAppq extends App {
 
   val port = sys.env.getOrElse("PORT", "8000").toInt
   val eventServerIp = sys.env.getOrElse("EVENT_SERVER_IP", "localhost")
